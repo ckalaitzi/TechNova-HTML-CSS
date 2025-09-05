@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Laptop X200",
+    "description": "Ισχυρό laptop με Intel i7 και SSD 512GB",
+    "image": "images/laptop1.jpg",
+    "likes": 12,
+    "price": 899.99
+  },
+  {
+    "name": "Smartphone Nova",
+    "description": "Οθόνη OLED 6.5\", 128GB αποθήκευση",
+    "image": "images/smartphone1.jpg",
+    "likes": 18,
+    "price": 699.00
+  },
+  {
+    "name": "Wireless Mouse Z",
+    "description": "Ασύρματο ποντίκι με DPI sensor 16000",
+    "image": "images/mouse.jpg",
+    "likes": 8,
+    "price": 34.90
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "description": "RGB πληκτρολόγιο με Blue switches",
+    "image": "images/keyboard.jpg",
+    "likes": 20,
+    "price": 79.00
+  },
+  {
+    "name": "Smartwatch Flex",
+    "description": "Με GPS, καρδιακό παλμό και ειδοποιήσεις",
+    "image": "images/smartwatch.jpg",
+    "likes": 5,
+    "price": 149.99
+  },
+  {
+    "name": "Bluetooth Headphones",
+    "description": "Ακύρωση θορύβου και καθαρός ήχος",
+    "image": "images/headphones.jpg",
+    "likes": 16,
+    "price": 99.90
+  },
+  {
+    "name": "Tablet Pro 10",
+    "description": "10'' tablet με 4GB RAM και Android 13",
+    "image": "images/tablet.jpg",
+    "likes": 9,
+    "price": 199.00
+  },
+  {
+    "name": "USB-C Hub 7-in-1",
+    "description": "7 θύρες για laptop και tablet",
+    "image": "images/hub.jpg",
+    "likes": 3,
+    "price": 29.99
+  },
+  {
+    "name": "Portable SSD 1TB",
+    "description": "USB 3.2 φορητός SSD με ταχύτητες 1000MB/s",
+    "image": "images/ssd.jpg",
+    "likes": 11,
+    "price": 139.00
+  },
+  {
+    "name": "Webcam HD 1080p",
+    "description": "Κατάλληλη για τηλεδιάσκεψη και streaming",
+    "image": "images/webcam.jpg",
+    "likes": 6,
+    "price": 49.00
+  },
+  {
+    "name": "Gaming Chair Xtreme",
+    "description": "Εργονομική καρέκλα με μαξιλάρια πλάτης/αυχένα",
+    "image": "images/chair.jpg",
+    "likes": 10,
+    "price": 179.00
+  },
+  {
+    "name": "Gaming Monitor 144Hz",
+    "description": "27'' IPS 144Hz Full HD με χαμηλό input lag",
+    "image": "images/monitor.jpg",
+    "likes": 22,
+    "price": 239.00
+  },
+  {
+    "name": "Router WiFi 6",
+    "description": "Dual-band με υποστήριξη WPA3",
+    "image": "images/router.jpg",
+    "likes": 7,
+    "price": 89.90
+  },
+  {
+    "name": "Wireless Charger Pad",
+    "description": "Γρήγορη ασύρματη φόρτιση έως 15W",
+    "image": "images/charger.jpg",
+    "likes": 4,
+    "price": 24.99
+  },
+  {
+    "name": "Powerbank 20000mAh",
+    "description": "Με υποστήριξη PD και QC 3.0",
+    "image": "images/powerbank.jpg",
+    "likes": 13,
+    "price": 39.90
+  },
+  {
+    "name": "Bluetooth Speaker Mini",
+    "description": "Φορητό, με 8 ώρες αυτονομία",
+    "image": "images/speaker.jpg",
+    "likes": 6,
+    "price": 34.99
+  },
+  {
+    "name": "Action Camera 4K",
+    "description": "Αδιάβροχη, με Wi-Fi και εικόνα 4K 60fps",
+    "image": "images/actioncam.jpg",
+    "likes": 17,
+    "price": 129.00
+  },
+  {
+    "name": "LED Strip RGB USB",
+    "description": "Έξυπνη ταινία φωτισμού για υπολογιστή/γραφείο",
+    "image": "images/led.jpg",
+    "likes": 5,
+    "price": 19.90
+  },
+  {
+    "name": "Laptop Cooling Pad",
+    "description": "Με 3 ανεμιστήρες και φωτισμό",
+    "image": "images/cooler.jpg",
+    "likes": 9,
+    "price": 25.00
+  },
+  {
+    "name": "Noise Cancelling Earbuds",
+    "description": "Ασύρματα in-ear ακουστικά με ANC",
+    "image": "images/earbuds.jpg",
+    "likes": 14,
+    "price": 79.99
+  }
+]

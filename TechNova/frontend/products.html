@@ -1,0 +1,87 @@
+<!-- products.html -->
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <title>TechNova - Προϊόντα</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="homepage.html">Αρχική</a>
+        <a href="products.html">Προϊόντα</a>
+      </div>
+      <div class="nav-right">
+        <img src="images/logo.png" alt="TechNova Logo" class="logo" />
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Τα προϊόντα μας</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Αναζήτηση προϊόντος..." oninput="searchProducts()" />
+      <button onclick="searchProducts()">Αναζήτηση</button>
+    </div>
+
+    <div id="productList" class="product-grid">
+      <!-- Τα προϊόντα εισάγονται δυναμικά με JavaScript -->
+    </div>
+
+    <section class="spec-section">
+      <h2>Τεχνικά χαρακτηριστικά προϊόντων</h2>
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>Προϊόν</th>
+            <th>Επεξεργαστής</th>
+            <th>Μνήμη</th>
+            <th>Οθόνη</th>
+            <th>Αποθήκευση</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Laptop X200</td>
+            <td>Intel i7</td>
+            <td>16GB RAM</td>
+            <td>15.6" Full HD</td>
+            <td>512GB SSD</td>
+          </tr>
+          <tr>
+            <td>Tablet Pro 10</td>
+            <td>Octa-Core</td>
+            <td>6GB RAM</td>
+            <td>11" IPS</td>
+            <td>256GB</td>
+          </tr>
+          <tr>
+            <td>Smartwatch Flex</td>
+            <td>Dual-core</td>
+            <td>1GB RAM</td>
+            <td>1.6" AMOLED</td>
+            <td>32GB</td>
+          </tr>
+          <tr>
+            <td>Smartphone Nova</td>
+            <td>Quad-core</td>
+            <td>2GB RAM</td>
+            <td>6.5"</td>
+            <td>16GB</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Τμήμα: Πληροφορικής</p>
+    <p>Καλαϊτζίδης Χρήστος</p>
+  </footer>
+
+  <script src="products.js"></script>
+</body>
+</html>
