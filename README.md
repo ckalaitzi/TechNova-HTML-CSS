@@ -23,13 +23,6 @@ Database (MongoDB) → αποθηκεύει τα δεδομένα προϊόντ
 
 🐳 Ένα command για να ανεβεί όλο το περιβάλλον (docker-compose up).
 
-⚙️ Architecture
-+-------------+        +-------------+        +-------------+
-|  Frontend   | <----> |   Backend   | <----> |   MongoDB   |
-| (Nginx)     |        | (Flask API) |        |  Products   |
-| Port 8080   |        | Port 5000   |        | Port 27017  |
-+-------------+        +-------------+        +-------------+
-
 
 Frontend → http://localhost:8080
 
@@ -37,27 +30,7 @@ Backend API → http://localhost:5000/products
 
 MongoDB → localhost:27017, DB: technova, collection: products
 
-📂 Project Structure
-SITE/
-│── docker-compose.yml      # Οργανώνει όλες τις υπηρεσίες 
-│── README.md               # Τεχνική Αναφορά
-│
-├── frontend/               # UI by Nginx
-│   ├── homepage.html
-│   ├── products.html
-│   ├── products.js
-│   ├── style.css
-│   ├── images/
-│   └── nginx.conf
-│
-├── backend/                # Flask API
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-└── mongo-init/             # Seed data + init script
-    ├── products.json
-    └── mongo-init.js
+
 
 🚀 Setup & Run
 1️⃣ Requirements
@@ -143,4 +116,3 @@ Backend API σε Flask
 
 MongoDB με auto-import προϊόντων
 
-Έτοιμο για παρουσίαση, εκμάθηση ή επέκταση σε πιο σύνθετα projects 🚀       .        Γράψε το παραπάνω σε README.md
